@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This project consists of basic Active Directory (AD) configurations. Some
+This project consists of basic Active Directory (AD) configurations. This is includes creating an Organizational Unit, Domain Controller, and DHCP, to name a few. 
 <br />
 
 
