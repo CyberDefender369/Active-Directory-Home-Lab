@@ -1,21 +1,21 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-This project consists of basic Active Directory (AD) configurations. An Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP) server were a few of the components configured. Some networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain. 
-
-Note:For redundancy reaons there are 45 screenshots in the project walk-through. Hopefully, the redundancy leaves no room for confusion if a student/beginner happens to come across this lab. 
+This project consists of basic Active Directory (AD) configurations. Some of the components configured include Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP). Simple networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain. 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>VirtualBox</b>
+- PowerShell
+- VirtualBox
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
-- <b>Windows Server 2019</b>
-- <b>RHEL 9.2</b>
+- Windows 10 (21H2)
+- Windows Server 2019
+- RHEL 9.2
 
+<h2>Note</h2>
+For redundancy reasons there are 45 screenshots in the project walk-through. Hopefully, the redundancy leaves minimal confusion for students/beginners wanting to replicate this lab. 
 <h2>Project Walk-Through:</h2>
 
 <p align="center">
