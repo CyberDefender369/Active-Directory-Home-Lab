@@ -21,7 +21,7 @@ This project consists of basic Active Directory (AD) configurations. An Organiza
 
 <p align="center">
 Figuring out networking configurations <br/>
-<img src="#" height="80%" width="80%">
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129145&authkey=%21AN6PTNRyQKRxxA4&width=1051&height=581" width="80%" height="80%" />
 <br />
 <br />
 Step 2:  <br/>
