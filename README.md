@@ -1,7 +1,9 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-This project consists of basic Active Directory (AD) configurations. An Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP) server were a few of the components configured. Some networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain.
+This project consists of basic Active Directory (AD) configurations. An Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP) server were a few of the components configured. Some networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain. 
+
+Note:For redundancy reaons there are 45 screenshots in the project walk-through. Hopefully, the redundancy leaves no room for confusion if a student/beginner happens to come across this lab. 
 
 <h2>Languages and Utilities Used</h2>
 
