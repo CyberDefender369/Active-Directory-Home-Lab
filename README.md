@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This project consists of basic Active Directory (AD) configurations. This is includes creating an Organizational Unit, Domain Controller, and DHCP server, to name a few. 
+This project consists of basic Active Directory (AD) configurations. An Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP) server were a few of the components configured. Some networking configurations were implemented as well. Additionally, a RHEL client machine was added to the AD domain. 
 <br />
 
 
@@ -15,7 +15,7 @@ This project consists of basic Active Directory (AD) configurations. This is inc
 
 - <b>Windows 10</b> (21H2)
 - <b>Windows Server 2019</b>
-
+- <b>RHEL 9.2</b>
 <h2>Program walk-through:</h2>
 
 <p align="center">
