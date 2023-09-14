@@ -3,6 +3,7 @@
 
 <h2>Description</h2>
 This project consists of basic Active Directory (AD) configurations. An Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP) server were a few of the components configured. Some networking configurations were implemented as well. Additionally, a RHEL client machine was added to the AD domain. 
+There is a lot more that could have been covered with respect to Active Directory, but the goal of this project was to cover the basics. 
 <br />
 
 
@@ -20,32 +21,186 @@ This project consists of basic Active Directory (AD) configurations. An Organiza
 <h2>Project Walk-Through:</h2>
 
 <p align="center">
-Figuring out networking configurations <br/>
+Step1: <br/>
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129145&authkey=%21AN6PTNRyQKRxxA4&width=1051&height=581" width="80%" height="80%" />
 <br />
 <br />
-Step 2:  <br/>
-<img src="#" height="80%" width="80%">
+Step 2: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129152&authkey=%21ACDNxscKOf4mOHY&width=1203&height=688" width="80%" height="80%" />
 <br />
 <br />
 Step 3: <br/>
-<img src="#" height="80%" width="80%">
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129157&authkey=%21AKzDkgA2AGd9SSY&width=1187&height=662" width="80%" height="80%" />
 <br />
 <br />
-Step 4:  <br/>
-<img src="#" height="80%" width="80%">
+Step 4: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129165&authkey=%21AKHqQ914Ve_YRVw&width=813&height=593" width="80%" height="80%" />
 <br />
 <br />
-Step 5:  <br/>
-<img src="#" height="80%" width="80%">
+Step 5: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129169&authkey=%21AO__hkW4A_44CeY&width=826&height=600" width="80%" height="80%" />
 <br />
 <br />
-Step 6:  <br/>
-<img src="#" height="80%" width="80%">
+Step 6: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129178&authkey=%21AJtX4P4j5S_1Z-E&width=691&height=435" width="691" height="435" />
 <br />
 <br />
-Step 7:  <br/>
-<img src="#" height="80%" width="80%">
+Step 7: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129183&authkey=%21ADirqcSlaoKpv-8&width=810&height=598" width="80%" height="80%" />
+<br />
+<br />
+Step 8: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129188&authkey=%21AJBnqHKiY9vS2k0&width=782&height=581" width="80%" height="80%" />
+<br />
+<br />
+Step 9: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129193&authkey=%21AMm09ogxJI7iugA&width=1041&height=659" width="80%" height="80%" />
+<br />
+<br />
+Step 10: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129197&authkey=%21ANc-lEHCI1UQYUI&width=1053&height=704" width="80%" height="80%" />
+<br />
+<br />
+Step 11: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129203&authkey=%21AG5axzeAqAEE_cI&width=1092&height=712" width="80%" height="80%" />
+<br />
+<br />
+Step 12: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129211&authkey=%21ANPjzHPqE5OczAI&width=1047&height=686" width="80%" height="80%" />
+<br />
+<br />
+Step 13: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129213&authkey=%21AHcdZjA7Tk6o3ug&width=1078&height=706" width="80%" height="80%" />
+<br />
+<br />
+Step 14: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129214&authkey=%21AINzjE54vsOsq8Q&width=1150&height=665" width="80%" height="80%" />
+<br />
+<br />
+Step 15: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129217&authkey=%21AI2qbnsmprdECWM&width=839&height=618" width="80%" height="80%" />
+<br />
+<br />
+Step 16: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129223&authkey=%21AGZ2cqSVcg8GlvA&width=837&height=611" width="80%" height="80%" />
+<br />
+<br />
+Step 17: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129232&authkey=%21ACgn2tjlAs1jZVE&width=943&height=461" width="80%" height="80%" />
+<br />
+<br />
+Step 18: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129236&authkey=%21ADA2t-wfryVo9VU&width=951&height=458" width="80%" height="80%" />
+<br />
+<br />
+Step 19: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129238&authkey=%21AK0iQ1-sHxkGK8U&width=812&height=578" width="80%" height="80%" />
+<br />
+<br />
+Step 20: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129243&authkey=%21AOgZqGuYDSzWfrY&width=849&height=444" width="80%" height="80%" />
+<br />
+<br />
+Step 21: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129245&authkey=%21AGfvbzeHjNWsULw&width=806&height=479" width="80%" height="80%" />
+<br />
+<br />
+Step 22: <br/>
+ <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129253&authkey=%21ANEagreAZZEovAs&width=831&height=455" width="80%" height="80%" />
+<br />
+<br />
+Step 23: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129255&authkey=%21AKCAkKTL1RJtnpE&width=833&height=447" width="80%" height="80%" />
+<br />
+<br />
+Step 24: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129293&authkey=%21AMpI3Sso61VfA30&width=1019&height=501" width="80%" height="80%" />
+<br />
+<br />
+Step 25: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129263&authkey=%21AJ5z-aPA19g3tG0&width=834&height=434" width="80%" height="80%" />
+<br />
+<br />
+Step 26: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129265&authkey=%21AAsAmvFjGuAaLP4&width=1735&height=837" width="80%" height="80%" />
+<br />
+<br />
+Step 27: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129281&authkey=%21ABsmvLlzbaZTc44&width=1727&height=821" width="80%" height="80%" />
+<br />
+<br />
+Step 28: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129295&authkey=%21AAgxCoAn5sP9LaI&width=1065&height=805" width="80%" height="80%" />
+<br />
+<br />
+Step 29: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129297&authkey=%21AHsMc1efyIjxyG4&width=1092&height=815" width="80%" height="80%" />
+<br />
+<br />
+Step 30: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129306&authkey=%21AKLfMgCF5-skV3w&width=1083&height=802" width="80%" height="80%" />
+<br />
+<br />
+Step 31: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129314&authkey=%21AG5SA_kKKZch9VU&width=1047&height=783" width="80%" height="80%" />
+<br />
+<br />
+Step 32: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129316&authkey=%21AHjM7ccDgAPhPXE&width=1669&height=641" width="80%" height="80%" />
+<br />
+<br />
+Step 33: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129318&authkey=%21ADQhobhygoIcTeo&width=1068&height=705" width="80%" height="80%" />
+<br />
+<br />
+Step 34: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129322&authkey=%21ALfAmwn0GgiI8DA&width=1038&height=790" width="80%" height="80%" />
+<br />
+<br />
+Step 35: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129322&authkey=%21ALfAmwn0GgiI8DA&width=1038&height=790" width="80%" height="80%" />
+<br />
+<br />
+Step 36: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129336&authkey=%21AISRd75uk7SwRtU&width=1058&height=495" width="80%" height="80%" />
+<br />
+<br />
+Step 37: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129347&authkey=%21ADSYllnoHwQIv0s&width=1003&height=487" width="80%" height="80%" />
+<br />
+<br />
+Step 38: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129349&authkey=%21APXaO_wbZhTE1Ws&width=1262&height=503" width="80%" height="80%" />
+<br />
+<br />
+Step 39: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129355&authkey=%21AO6nG1cJ3PHXLIE&width=1230&height=490" width="80%" height="80%" />
+<br />
+<br />
+Step 40: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129357&authkey=%21AOuAc-xBPwgO7DU&width=1241&height=494" width="80%" height="80%" />
+<br />
+<br />
+Step 41: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129361&authkey=%21ACUkUdf7RS4LBdY&width=1276&height=512" width="80%" height="80%" />
+<br />
+<br />
+Step 42: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129359&authkey=%21AE1WF_8UtbHtx7k&width=1101&height=711" width="80%" height="80%" />
+<br />
+<br />
+Step 43: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129365&authkey=%21AJ5yvkcVl-Bajz4&width=1082&height=728" width="80%" height="80%" />
+<br />
+<br />
+Step 44: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129367&authkey=%21APidCJoy2TxQxnM&width=1254&height=495" width="80%" height="80%" />
+<br />
+<br />
+Step 45: <br/>
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129369&authkey=%21AOlH2ItHNmG_O_0&width=1309&height=533" width="80%" height="80%" />
+<br />
+<br />
 </p>
 
 <!--
