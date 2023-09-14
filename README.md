@@ -166,7 +166,7 @@ Step 37: <br/>
 <br />
 <br />
 Step 38: <br/>
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129349&authkey=%21APXaO_wbZhTE1Ws&width=100&height=1000" width="80%" height="80%" />
+<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129349&authkey=%21APXaO_wbZhTE1Ws&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
 Step 39: <br/>
