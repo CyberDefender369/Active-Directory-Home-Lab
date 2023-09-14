@@ -20,9 +20,10 @@ This project consists of basic Active Directory (AD) configurations. An Organiza
 
 <p align="center">
 Step 1: <br/>
-<img src="#" height="80%" width="80%"/>
+<img src="C:\Users\grb91\OneDrive\Desktop\Cybersecurity Projects\Active Directory\Screenshot 2023-09-11 190028.png" height="80%" width="80%"/>
 <br />
 <br />
+
 Step 2:  <br/>
 <img src="#" height="80%" width="80%">
 <br />
