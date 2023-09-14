@@ -16,7 +16,8 @@ This project consists of basic Active Directory (AD) configurations. An Organiza
 - <b>Windows 10</b> (21H2)
 - <b>Windows Server 2019</b>
 - <b>RHEL 9.2</b>
-<h2>Program walk-through:</h2>
+
+<h2>Project Walk-Through:</h2>
 
 <p align="center">
 Step 1: <br/>
