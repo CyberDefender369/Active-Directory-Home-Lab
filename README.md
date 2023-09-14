@@ -20,11 +20,10 @@ This project consists of basic Active Directory (AD) configurations. An Organiza
 <h2>Project Walk-Through:</h2>
 
 <p align="center">
-Step 1: <br/>
-<img src="https://imgur.com/a/qBRnTt6" height="80%" width="80%"/>
+Figuring out networking configurations <br/>
+<img src="#" height="80%" width="80%">
 <br />
 <br />
-
 Step 2:  <br/>
 <img src="#" height="80%" width="80%">
 <br />
