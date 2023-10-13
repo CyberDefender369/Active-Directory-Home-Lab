@@ -19,23 +19,15 @@ For redundancy reasons there are 45 screenshots in the project walk-through. Hop
 <h2>Project Walk-Through:</h2>
 
 <p align="center">
-Step1: <br/>
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129145&authkey=%21AN6PTNRyQKRxxA4&width=1000&height=1000" width="80%" height="80%" />
-<br />
-<br />
-Step 2: <br/>
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129152&authkey=%21ACDNxscKOf4mOHY&width=1000&height=1000" width="80%" height="80%" />
-<br />
-<br />
-Step 3: <br/>
+Configure IP addresses on the the second internal NIC (Ethernet 2) of the Windows machine that will act as the Domain Controller, DNS Server, and Default Gateway. Used the static IP address of 172.16.0.1/24 for device and loopback address for DNS. <br/>
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129157&authkey=%21AKzDkgA2AGd9SSY&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 4: <br/>
+Install Active Directory Domain Services. <br/>
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129165&authkey=%21AKHqQ914Ve_YRVw&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 5: <br/>
+Confirm all services are correct and install. <br/>
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129169&authkey=%21AO__hkW4A_44CeY&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
