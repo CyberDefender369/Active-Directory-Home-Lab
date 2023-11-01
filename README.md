@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-This project consists of basic Active Directory (AD) configurations. Some of the components configured include Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP). Simple networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain. 
+This project consists of basic Active Directory (AD) configurations. In this home lab I configured an Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP). Simple networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain. 
 
 <h2>Languages and Utilities Used</h2>
 
@@ -19,60 +19,56 @@ For redundancy reasons there are 45 screenshots in the project walk-through. Hop
 
 <h2>Project Walk-Through:</h2>
 
-<p align="center">
-Configure IP addresses on the the second internal NIC (Ethernet 2) of the Windows machine that will act as the Domain Controller, DNS Server, and Default Gateway. Used the static IP address of 172.16.0.1/24 for device and loopback address for DNS. <br/>
+<p align="left">
+Configure IP addresses on the the second internal NIC (Ethernet 2) of the Windows machine that will act as the Domain Controller, DNS Server, and Default Gateway. Used the static IP address of 172.16.0.1/24 for the internal NIC and loopback address for the DNS. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129157&authkey=%21AKzDkgA2AGd9SSY&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Install Active Directory Domain Services. <br/>
+Install Active Directory Domain Services. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129165&authkey=%21AKHqQ914Ve_YRVw&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Confirm all services are correct and install. <br/>
+Confirm all services are correct and install.
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129169&authkey=%21AO__hkW4A_44CeY&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 6: <br/>
+Promote this server to a domain controller. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129178&authkey=%21AJtX4P4j5S_1Z-E&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 7: <br/>
+Add a new forest and name the domain.
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129183&authkey=%21ADirqcSlaoKpv-8&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 8: <br/>
+Keep all default configurations and install. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129188&authkey=%21AJBnqHKiY9vS2k0&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 9: <br/>
+Computer will restart and domain has been created. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129193&authkey=%21AMm09ogxJI7iugA&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 10: <br/>
+Create dedicated domain administrative account by navigating to AD users and computers, and create a OU first and name it ADMINS. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129197&authkey=%21ANc-lEHCI1UQYUI&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 11: <br/>
+Add a new user, which will be the dedicated admin account. Naming convention will depend on the organization.  
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129203&authkey=%21AG5axzeAqAEE_cI&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 12: <br/>
+Make the account a domain admin by heading over to properties -> member of -> domain admins -> OK -> apply. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129211&authkey=%21ANPjzHPqE5OczAI&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 13: <br/>
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129213&authkey=%21AHcdZjA7Tk6o3ug&width=1000&height=1000" width="80%" height="80%" />
-<br />
-<br />
-Step 14: <br/>
+Logout of the domain conroller -> Ctrl+Alt+Delete -> sign in as domain admin. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129214&authkey=%21AINzjE54vsOsq8Q&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 15: <br/>
+Time to install Network Address Translation for internal workstation clients. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129217&authkey=%21AI2qbnsmprdECWM&width=1000height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 16: <br/>
+Add roles and feautures -> select correct server -> Remote Access -> Routing -> keep defaults -> install.  
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129223&authkey=%21AGZ2cqSVcg8GlvA&width=1000height=1000" width="80%" height="80%" />
 <br />
 <br />
