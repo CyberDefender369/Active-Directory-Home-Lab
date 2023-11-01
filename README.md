@@ -16,6 +16,7 @@ This project consists of basic Active Directory (AD) configurations. Some of the
 
 <h2>Note</h2>
 For redundancy reasons there are 45 screenshots in the project walk-through. Hopefully, the redundancy leaves minimal confusion for students/beginners wanting to replicate this lab. 
+
 <h2>Project Walk-Through:</h2>
 
 <p align="center">
