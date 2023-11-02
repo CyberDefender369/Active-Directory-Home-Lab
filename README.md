@@ -84,7 +84,7 @@ Add roles and feautures -> select correct server -> select DHCP server -> leave 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129238&authkey=%21AK0iQ1-sHxkGK8U&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 20: <br/>
+Tools -> DHCP -> right click IPv4 -> New Scope... -> name scope -> add description. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129243&authkey=%21AOgZqGuYDSzWfrY&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
