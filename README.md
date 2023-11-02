@@ -88,7 +88,7 @@ Tools -> DHCP -> right click IPv4 -> New Scope... -> name scope -> add descripti
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129243&authkey=%21AOgZqGuYDSzWfrY&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 21: <br/>
+Enter IP range and subnet mask. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129245&authkey=%21AGfvbzeHjNWsULw&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
