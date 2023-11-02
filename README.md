@@ -132,11 +132,7 @@ Confirm that the windows client joined the domain by checking computers under Ac
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129318&authkey=%21ADQhobhygoIcTeo&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 34: <br/>
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129322&authkey=%21ALfAmwn0GgiI8DA&width=1000&height=1000" width="80%" height="80%" />
-<br />
-<br />
-Step 35: <br/>
+Login in as another user created earlier from the PowerShell script. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129322&authkey=%21ALfAmwn0GgiI8DA&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
