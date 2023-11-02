@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-This project consists of basic Active Directory (AD) configurations. In this home lab I configured an Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP). Simple networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain. 
+This project focuses on basic Active Directory (AD) configurations. In this home lab I configured Organizational Unit (OU), Domain Controller (DC), and Dynamic Host Configuration Protocol (DHCP). Simple networking configurations were implemented as well. Additionally, a RHEL client was added to the AD domain. 
 
 <h2>Languages and Utilities Used</h2>
 
@@ -72,15 +72,15 @@ Add roles and feautures -> select correct server -> Remote Access -> Routing -> 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129223&authkey=%21AGZ2cqSVcg8GlvA&width=1000height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 17: <br/>
+Tools -> Routing and Remote Access -> Configure an Enable Routing and Remote Access-> select NAT -> select outward facing NIC -> finish.
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129232&authkey=%21ACgn2tjlAs1jZVE&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 18: <br/>
+Green arrow next to DC (local) signifies that NAT is now operational. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129236&authkey=%21ADA2t-wfryVo9VU&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 19: <br/>
+Add roles and feautures -> select correct server -> select DHCP server -> leave everything else default -> install. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129238&authkey=%21AK0iQ1-sHxkGK8U&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
