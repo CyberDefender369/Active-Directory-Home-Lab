@@ -88,55 +88,47 @@ Tools -> DHCP -> right click IPv4 -> New Scope... -> name scope -> add descripti
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129243&authkey=%21AOgZqGuYDSzWfrY&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Enter IP range and subnet mask. 
+Enter IP range and subnet mask. Next page will ask about lease duration which I left as default but will depend on the policies of each organization. Next, it will ask you if you want to configure DHCP options. Select yes and click next. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129245&authkey=%21AGfvbzeHjNWsULw&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 22: <br/>
+Add the IP address of the internal facing NIC, which will serve as the default gateway for the LAN. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129253&authkey=%21ANEagreAZZEovAs&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 23: <br/>
+DC will act as DNS server. Enter domain that was previously created. Skip WINS Server. Active scope and finish. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129255&authkey=%21AKCAkKTL1RJtnpE&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 24: <br/>
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129293&authkey=%21AMpI3Sso61VfA30&width=1000&height=1000" width="80%" height="80%" />
-<br />
-<br />
-Step 25: <br/>
+May have to right click DHCP server and then refresh to ensure the server is up and running. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129263&authkey=%21AJ5z-aPA19g3tG0&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 26: <br/>
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129265&authkey=%21AAsAmvFjGuAaLP4&width=1000&height=1000" width="80%" height="80%" />
-<br />
-<br />
-Step 27: <br/>
+This PowerShell script creates an OU named _USERS and creates a 1,000 new users. I did not develop this PowerShell script, it was created by Josh Madakor.
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129281&authkey=%21ABsmvLlzbaZTc44&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 28: <br/>
+Get a free Windows 10 ISO from Microsoft and create virtual client. Make sure to change network adapter to internal network. Enter ipconfig in command prompt and ensure the DHCP server is working properly. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129295&authkey=%21AAgxCoAn5sP9LaI&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 29: <br/>
+Ping a website. I chose to ping Amazon and Google. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129297&authkey=%21AHsMc1efyIjxyG4&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 30: <br/>
+Rename Windows client and join domain. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129306&authkey=%21AKLfMgCF5-skV3w&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 31: <br/>
+Enter proper credentials and windows client should be able to join domain. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129314&authkey=%21AG5SA_kKKZch9VU&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 32: <br/>
+Confirm that the windows client got its IP address from DHCP server by checking Address Leases on the DHCP Server.   
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129316&authkey=%21AHjM7ccDgAPhPXE&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
-Step 33: <br/>
+Confirm that the windows client joined the domain by checking computers under Active Directory Users and Computers. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129318&authkey=%21ADQhobhygoIcTeo&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
