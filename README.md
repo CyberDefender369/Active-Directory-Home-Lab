@@ -80,6 +80,7 @@ Green arrow next to DC (local) signifies that NAT is now operational.
 <br />
 <br />
 Install DHCP Server. Add roles and feautures -> select correct server -> select DHCP Server -> leave everything else default -> install. 
+  
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129238&authkey=%21AK0iQ1-sHxkGK8U&width=1000&height=1000" width="80%" height="80%" />
 <br />
 <br />
