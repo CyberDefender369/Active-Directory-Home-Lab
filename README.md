@@ -17,13 +17,19 @@ This endeavor concentrated on establishing fundamental configurations within Act
 
 ## Project Walk-Through:
 
-* Configure IP address on the the second internal NIC (Ethernet 2) of the Windows machine that will act as the Domain Controller, DNS Server, and Default Gateway. Used the static IP address of 172.16.0.1/24 for the internal NIC and loopback address for the DNS. 
+- Configure internal NIC (Ethernet 2) IP address of the Windows Server 2019 machine that will act as the Domain Controller, DNS Server, and Default Gateway.
+  - Used a static IP address of 172.16.0.1/24 for the Ethernet 2 and loopback address for the DNS. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129157&authkey=%21AKzDkgA2AGd9SSY&width=1000&height=1000" width="80%" height="80%" />
 
-* Install Active Directory Domain Services. Add roles and features -> Role-based or feature-based installation -> select correct server -> Active Directory Domain Services -> next.          
+- Install Active Directory Domain Services:
+  - Add roles and features
+  - Role-based or feature-based installation
+  - Select correct server
+  - Active Directory Domain Services
+  - Next   
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129165&authkey=%21AKHqQ914Ve_YRVw&width=1000&height=1000" width="80%" height="80%" />
 
-* Confirm all services are correct and install.
+* Confirm all services are configured correctly and click install.
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129169&authkey=%21AO__hkW4A_44CeY&width=1000&height=1000" width="80%" height="80%" />
 
 * Promote this server to a domain controller. 
