@@ -2,7 +2,7 @@
 
 ## Description
 
-This endeavor concentrated on establishing fundamental configurations within Active Directory (AD). The scope of the project included the creation of an Organizational Unit (OU), the deployment of a Domain Controller (DC), and the configuration of a Dynamic Host Configuration Protocol (DHCP) server, among other elements. Basic networking configurations were executed to establish system integration. Furthermore, the incorporation of a Red Hat Enterprise Linux (RHEL) client into the AD domain was successfully achieved, expanding the domain’s compatibility and reach.
+This endeavor concentrated on establishing fundamental configurations within Active Directory (AD). The scope of the project included the creation of an Organizational Unit (OU), the deployment of a Domain Controller (DC), and the configuration of a Dynamic Host Configuration Protocol (DHCP) server, among other elements. Basic networking configurations were executed to establish system integration. 
 
 ## Languages and Utilities Used
 
@@ -13,7 +13,10 @@ This endeavor concentrated on establishing fundamental configurations within Act
 
 - Windows 10 
 - Windows Server 2019
-- RHEL 9.2
+
+## Notes
+
+There is no firewall setup for this project but for security reasons there would normally be a firewall setup between the internet and any critical server. 
 
 ## Project Walk-Through:
 
