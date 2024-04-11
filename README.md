@@ -36,7 +36,6 @@ This endeavor concentrated on establishing fundamental configurations within Act
   - Role-based or feature-based installation
   - Select correct server
   - Active Directory Domain Services
-  - Next
   - Confirm installation selections
   - Install
 
@@ -47,7 +46,6 @@ This endeavor concentrated on establishing fundamental configurations within Act
   - Add a new forest
   - Root domain name: exampledomain.com
   - DSRM password
-  - Next
   - Install
 
 ![promote_server](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/f57c391e-d281-4fd4-a8c5-7c23c03d9e3e)
@@ -102,7 +100,6 @@ This endeavor concentrated on establishing fundamental configurations within Act
   - Select correct server
   - Remote Access
   - Routing
-  - Next
   - Install
 
 ![install_nat](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/635e6993-fc9b-4a41-a7ed-8d4e328cc8ab)
@@ -124,32 +121,31 @@ This endeavor concentrated on establishing fundamental configurations within Act
   - Add roles and feautures
   - Select correct server 
   - DHCP Server
-  - Next
   - Install
 
 ![dhcp_server](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/a42f6bfe-7f9a-4f29-8cdd-287edeecc82b)
 
 
-- Configure scope. Tools -> DHCP -> right click IPv4 -> New Scope... -> name scope -> add description. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129243&authkey=%21AOgZqGuYDSzWfrY&width=1000&height=1000" width="80%" height="80%" />
+- Configure DHCP scope:
+  - Tools
+  - DHCP
+  - Right click IPv4
+  - New scope
+  - Name scope
+  - Default gateway
+  - Finish
+  - Authorize
+  - Refresh
+ 
+![dhcp_config](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/129a3d55-818a-45ae-944a-959b25d050be)
 
-- Enter IP range and subnet mask. Next page will ask about lease duration which I left as default but will depend on the policies of each organization. Next, it will ask you if you want to configure DHCP options. Select yes and click next. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129245&authkey=%21AGfvbzeHjNWsULw&width=1000&height=1000" width="80%" height="80%" />
 
-- Add the IP address of the internal facing NIC, which will serve as the default gateway for the internal network. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129253&authkey=%21ANEagreAZZEovAs&width=1000&height=1000" width="80%" height="80%" />
+- Ran a PowerShell script that created an OU named Users01 and a 1,000 new users.
 
-- DC will act as DNS server. Enter domain that was previously created. Skip WINS Server. Active scope and finish. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129255&authkey=%21AKCAkKTL1RJtnpE&width=1000&height=1000" width="80%" height="80%" />
+![powershell_script](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/31816c61-57ca-4a83-b508-4a42997fcca0)
 
-- May have to right click DHCP server and then refresh to ensure the server is up and running. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129263&authkey=%21AJ5z-aPA19g3tG0&width=1000&height=1000" width="80%" height="80%" />
 
-- This PowerShell script creates an OU named _USERS and a 1,000 new users. Credit goes to Josh Madakor for the script.
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129281&authkey=%21ABsmvLlzbaZTc44&width=1000&height=1000" width="80%" height="80%" />
-
-- Get a free Windows 10 ISO from Microsoft and create virtual client. Make sure to change network adapter to internal network. Enter ipconfig in command prompt and ensure the DHCP server is working properly. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129295&authkey=%21AAgxCoAn5sP9LaI&width=1000&height=1000" width="80%" height="80%" />
+- Windows 10 client. Make sure to change network adapter to internal network. Enter ipconfig in command prompt and ensure the DHCP server is working properly. 
 
 - Ping a website. I chose to ping Amazon and Google. 
 <img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129297&authkey=%21AHsMc1efyIjxyG4&width=1000&height=1000" width="80%" height="80%" />
