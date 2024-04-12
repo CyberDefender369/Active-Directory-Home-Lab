@@ -56,7 +56,7 @@ To keep everything simple, a firewall was not setup for this home lab but is hig
 ![domain](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/9404ce63-6084-40cc-9515-3aff97721908)
 
 
-- Create dedicated domain admin account:
+- Create an Admins Organizational Unit:
   - Active Directory Users and Computers
   - Right click domain
   - New
@@ -66,7 +66,7 @@ To keep everything simple, a firewall was not setup for this home lab but is hig
 ![admin_OU](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/2a9ab315-200d-45a2-a07c-303d354ead06)
 
 
-- Add  new user to Admins:
+- Add new user to Admins (this user will be the helpesk technician):
   - Right click Admins
   - New
   - User
@@ -77,7 +77,7 @@ To keep everything simple, a firewall was not setup for this home lab but is hig
 ![admin_user](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/cc353d06-f651-4e87-9c58-aea2ddd94d29)
 
 
-- Make user a domain admin:
+- Give helpdesk technician admin rights:
   - Right click John Doe
   - Properties
   - Member of
@@ -89,7 +89,7 @@ To keep everything simple, a firewall was not setup for this home lab but is hig
 ![domain_admin](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/837e898a-d530-43f2-91cd-3fcb577265b9)
 
 
-- Sign out and sign in as the dedicated domain admin.
+- Sign out, then sign in as helpdesk technician.
 
 ![dedicated_domain_admin](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/7d4fc74d-1d03-4108-8c46-7df55d3fd7e1)
 
@@ -145,7 +145,7 @@ To keep everything simple, a firewall was not setup for this home lab but is hig
 ![powershell_script](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/31816c61-57ca-4a83-b508-4a42997fcca0)
 
 
-- Confirm network configuration of Windows 10 client:
+- Confirm network configuration of Windows 10 client (employee computer):
   - Command Prompt
   - Enter ipconfig 
   - Ping Google.com
