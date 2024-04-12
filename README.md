@@ -12,7 +12,7 @@ This endeavor concentrated on establishing fundamental configurations within Act
 ## Environments Used
 
 - Windows 10 
-- Windows Server 2019
+- Windows Server 2022
 
 ## Notes
 
@@ -20,7 +20,7 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 
 ## Project Walk-Through:
 
-### Setup
+### Setup and Configuration
 
 - Configure internal facing NIC of Windows Server 2022 with a static IP address:
   - Open Network & Internet Settings
@@ -213,15 +213,52 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 ![account_lockout](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/6d3b18da-62e7-4383-8f18-e6ecd4446469)
 
 
-### Real World Scenarios
+### Real World Examples
 
-- Onboarding New Accounting Employee:
-  - Move Clarissa Palemo, from previously created Users01, to ACC
+- Onboarding new accounting employee:
+  - Move Clarissa Palermo, from previously created Users01, to ACC
   - Normally, temporary password would be used but Powershell script from earlier already assigned password
   - Require Clarissa to change password at next login
   - Switch to Clarissa's machine
   - Login
   - Change password
+  - whoami
  
-- Password Reset:
-  - 
+  ![onboarding](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/2950a442-c115-4eae-a8eb-09672b2c3414)
+
+ 
+- Password reset:
+  - Windows Adminstrative Tools
+  - Active Directory Users and Computers
+  - ACC
+  - Right click cpalermo
+  - Reset Password
+  - Enter new temporary password
+  - Enter new password
+ 
+![password_reset](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/ab4a74c7-b331-4fa1-97b0-8a40f18f1e48)
+
+
+- Unlock Account:
+  - Windows Adminstrative Tools
+  - Active Directory Users and Computers
+  - ACC
+  - Right click cpalermo
+  - Properties
+  - Account
+  - Unlock account
+  - Apply
+  
+![unlock_account](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/57bc48e4-322c-4975-99b5-970cf25c81bc)
+
+
+- Remove Account:
+  - Windows Adminstrative Tools
+  - Active Directory Users and Computers
+  - ACC
+  - Right click cpalermo
+  - Disable account
+  - Sign out of account
+  - Try to sign back in
+
+![remove_account](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/2779f755-7864-4e9d-97df-8de2c9b66ef5)
