@@ -2,7 +2,20 @@
 
 ## Description
 
-This endeavor concentrated on establishing fundamental configurations within Active Directory (AD). The scope of the project included the creation of an Organizational Unit (OU), the deployment of a Domain Controller (DC), and the configuration of a Dynamic Host Configuration Protocol (DHCP) server, among other elements. Basic networking configurations were executed to establish system integration. 
+This Active Directory home lab project comprises two distinct components, and equips learners with practical skills in Active Directory administration and real-world scenarios.
+
+Part 1: Fundamental Active Directory Configurations
+*	Deployment of a Domain Controller (DC): Set up a Domain Controller, the cornerstone of any Active Directory infrastructure.
+*	Implementation of a Dynamic Host Configuration Protocol (DHCP) Server:  Established DHCP services to dynamically allocate IP addresses to network devices.
+*	Network Address Translation (NAT) Server Setup: NAT server facilitates communication between internal and external networks.
+*	Group Policy Management (GPM) Enhancements: Aligned GPM with CIS Benchmarks recommendations to bolster security.
+*	Basic Networking Configurations: Established essential network settings to ensure seamless communication.
+
+Part 2: Real-World Scenarios
+* Employee Onboarding: Documented the process of integrating a new employee into the Active Directory environment.
+* Password Reset Procedure: Covers how to securely and efficiently reset password for user.
+* Account Unlocking: Outlined the steps to unlock user account when necessary.
+* Account Disabling: Procedure details how to disable account in compliance with security protocols.
 
 ## Languages and Utilities Used
 
@@ -14,9 +27,6 @@ This endeavor concentrated on establishing fundamental configurations within Act
 - Windows 10 
 - Windows Server 2022
 
-## Notes
-
-Windows 11 machine randomly appears halfway through the lab because I realized it would be more of a real world situation. That is, IT support/Helpdesk would not normally have direct access to the Domain Controller but instead access Active Directory via their work device. 
 
 ## Project Walk-Through:
 
@@ -213,7 +223,7 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 ![account_lockout](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/6d3b18da-62e7-4383-8f18-e6ecd4446469)
 
 
-### Real World Examples
+### Real World Scenarios
 
 - Onboarding new accounting employee:
   - Move Clarissa Palermo, from previously created Users01, to ACC
