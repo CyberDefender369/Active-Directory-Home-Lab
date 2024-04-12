@@ -16,7 +16,7 @@ This endeavor concentrated on establishing fundamental configurations within Act
 
 ## Notes
 
-To keep everything simple, a firewall was not setup for this home lab but is highly recommended. 
+Windows 11 machine randomly appears halfway through the lab because I realized it would be more of a real world situation. That is, IT support/Helpdesk would not normally have direct access to the Domain Controller but instead access Active Directory via their work device. 
 
 ## Project Walk-Through:
 
