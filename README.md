@@ -16,7 +16,7 @@ This endeavor concentrated on establishing fundamental configurations within Act
 
 ## Notes
 
-
+To keep everything simple, a firewall was not setup for this home lab but is highly recommended. 
 
 ## Project Walk-Through:
 
