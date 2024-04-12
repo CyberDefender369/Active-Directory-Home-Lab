@@ -176,7 +176,7 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 ![dhcp_proper](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/5b39ded2-953b-4532-bc39-4bc33ed01875)
 
 
-- Confirm Windows 10 client joined domain:
+- Confirm employee computer joined domain:
   - Windows Adminstrative Tools
   - Active Directory Users and Computers
   - Computers
@@ -184,7 +184,7 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 ![domain_joined](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/d0a74baf-8162-4f18-9522-0ef1aacc2765)
 
 
-- Login in as another user.
+- Login in as another user (new employee).
 
 ![other_user](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/bb86efea-3e9b-44ba-9057-4be2084db477)
 
