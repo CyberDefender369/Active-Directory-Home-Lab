@@ -145,22 +145,46 @@ This endeavor concentrated on establishing fundamental configurations within Act
 ![powershell_script](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/31816c61-57ca-4a83-b508-4a42997fcca0)
 
 
-- Windows 10 client. Make sure to change network adapter to internal network. Enter ipconfig in command prompt and ensure the DHCP server is working properly. 
+- Confirm network configuration of Windows 10 client:
+  - Command Prompt
+  - Enter ipconfig 
+  - Ping Google.com
+    
+![network_config](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/8b5c63e0-567c-4a0b-9f90-eb38036b8f69)
 
-- Ping a website. I chose to ping Amazon and Google. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129297&authkey=%21AHsMc1efyIjxyG4&width=1000&height=1000" width="80%" height="80%" />
 
-- Rename Windows client and join domain. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129306&authkey=%21AKLfMgCF5-skV3w&width=1000&height=1000" width="80%" height="80%" />
+- Join the domain:
+  - Right click start menu
+  - System
+  - Rename this PC (advanced)
+  - Change
+  - Domain
+  - Enter exampledomain.com
+  - Enter admin credentials
+  - Restart
 
-- Enter proper credentials and windows client should be able to join domain. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129314&authkey=%21AG5SA_kKKZch9VU&width=1000&height=1000" width="80%" height="80%" />
+![join_domain](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/3efc5863-4c59-4e9f-bd88-3ee6e3bb217d)
 
-- Confirm that the windows client got its IP address from DHCP server by checking Address Leases on the DHCP Server.   
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129316&authkey=%21AHjM7ccDgAPhPXE&width=1000&height=1000" width="80%" height="80%" />
 
-- Confirm that the windows client joined the domain by checking Computers under Active Directory Users and Computers. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129318&authkey=%21ADQhobhygoIcTeo&width=1000&height=1000" width="80%" height="80%" />
+- Confirm DHCP server is leasing IP addresses properly:
+  - Tools
+  - DHCP
+  - IPv4
+  - Scope
+  - Address leases
 
-- Login in as another user created earlier. 
-<img src="https://onedrive.live.com/embed?resid=C275DA66CF018782%2129322&authkey=%21ALfAmwn0GgiI8DA&width=1000&height=1000" width="80%" height="80%" />
+![dhcp_proper](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/5b39ded2-953b-4532-bc39-4bc33ed01875)
+
+
+- Confirm Windows 10 client joined domain:
+  - Windows Adminstrative Tools
+  - Active Directory Users and Computers
+  - Computers
+
+![domain_joined](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/d0a74baf-8162-4f18-9522-0ef1aacc2765)
+
+
+- Login in as another user.
+
+![other_user](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/bb86efea-3e9b-44ba-9057-4be2084db477)
+
