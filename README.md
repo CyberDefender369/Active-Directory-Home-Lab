@@ -237,7 +237,7 @@ Part 2: Real-World Scenarios
   ![onboarding](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/2950a442-c115-4eae-a8eb-09672b2c3414)
 
  
-- Password reset:
+- Password Reset:
   - Windows Adminstrative Tools
   - Active Directory Users and Computers
   - ACC
