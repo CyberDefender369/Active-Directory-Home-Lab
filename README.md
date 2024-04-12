@@ -20,6 +20,8 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 
 ## Project Walk-Through:
 
+### Setup
+
 - Configure internal facing NIC of Windows Server 2022 with a static IP address:
   - Open Network & Internet Settings
   - Change adapter options
@@ -145,7 +147,7 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 ![powershell_script](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/31816c61-57ca-4a83-b508-4a42997fcca0)
 
 
-- Confirm network configuration of Windows 10 client (employee computer):
+- Confirm network configuration of Windows 10 client (employee workstation):
   - Command Prompt
   - Enter ipconfig 
   - Ping Google.com
@@ -176,7 +178,7 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 ![dhcp_proper](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/5b39ded2-953b-4532-bc39-4bc33ed01875)
 
 
-- Confirm employee computer joined domain:
+- Confirm employee workstation joined domain:
   - Windows Adminstrative Tools
   - Active Directory Users and Computers
   - Computers
@@ -184,7 +186,42 @@ Windows 11 machine randomly appears halfway through the lab because I realized i
 ![domain_joined](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/d0a74baf-8162-4f18-9522-0ef1aacc2765)
 
 
-- Login in as another user (new employee).
+- Group Policy Management (Update Password Policy)
+  - Tools
+  - Group Policy Management
+  - Edit
+  - Policies
+  - Windows Settings
+  - Security Settings
+  - Account Policies
+  - Password Policy
+  - Update according to CIS Benchmarks recommendations
+ 
+![password_policy](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/03013cbf-bfb4-40e4-801a-19b87bb236ef)
 
-![other_user](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/bb86efea-3e9b-44ba-9057-4be2084db477)
+- Group Policy Management (Account Lockout Policy)
+  - Tools
+  - Group Policy Management
+  - Edit
+  - Policies
+  - Windows Settings
+  - Security Settings
+  - Account Policies
+  - Account Lockout Policy
+  - Update according to CIS Benchmarks recommendations
 
+![account_lockout](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/6d3b18da-62e7-4383-8f18-e6ecd4446469)
+
+
+### Real World Scenarios
+
+- Onboarding New Accounting Employee:
+  - Move Clarissa Palemo, from previously created Users01, to ACC
+  - Normally, temporary password would be used but Powershell script from earlier already assigned password
+  - Require Clarissa to change password at next login
+  - Switch to Clarissa's machine
+  - Login
+  - Change password
+ 
+- Password Reset:
+  - 
