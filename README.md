@@ -2,7 +2,7 @@
 
 ## Description
 
-This Active Directory home lab project comprises two distinct components, and equips learners with practical skills in Active Directory administration and real-world scenarios.
+This Active Directory home lab project comprises two distinct sections, and equips learners with practical skills in Active Directory administration and real-world scenarios.
 
 Part 1: Fundamental Active Directory Configurations
 *	Deployment of a Domain Controller (DC): Set up a Domain Controller, the cornerstone of any Active Directory infrastructure.
