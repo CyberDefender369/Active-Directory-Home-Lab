@@ -262,7 +262,7 @@ Part 2: Real-World Scenarios
 ![unlock_account](https://github.com/CyberDefender369/Active-Directory-Home-Lab/assets/96165986/57bc48e4-322c-4975-99b5-970cf25c81bc)
 
 
-- Remove Account:
+- Disable Account:
   - Windows Adminstrative Tools
   - Active Directory Users and Computers
   - ACC
