@@ -18,18 +18,14 @@ Part 2: Real-World Scenarios
 * Account Disabling: Procedure details how to disable account in compliance with security protocols.
 
 ## Languages and Utilities Used
-
 - PowerShell
 - VirtualBox
 
 ## Environments Used
-
 - Windows 10 
 - Windows Server 2022
 
-
 ## Project Walk-Through:
-
 ### Setup and Configuration
 
 - Configure internal facing NIC of Windows Server 2022 with a static IP address:
